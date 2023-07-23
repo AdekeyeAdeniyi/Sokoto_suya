@@ -43,6 +43,33 @@ section {
   padding: 80px 0;
 }
 
+/* Button */
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  border: none;
+  border-radius: 4px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.btn--md {
+  font-size: 1.8rem;
+  height: 45px;
+  width: 175px;
+}
+
+.btn--primary {
+  background-color: #c64015;
+  color: #ffffff;
+}
+
+.btn--primary:hover {
+  background-color: #d93e0a;
+}
+
 /* Utilities */
 .container {
   margin: 0 auto;
@@ -104,4 +131,61 @@ section {
   background-color: #c64015;
   width: 90%;
   transition: all 0.3s linear;
+}
+
+/* Herobox */
+.herobox {
+  background: linear-gradient(#3b0101a7, #3b0101a7),
+    url('./images/bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  .herobox {
+    min-height: 100vh;
+  }
+}
+
+.herobox .container {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.herobox_content .title {
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 1;
+  padding-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .herobox_content .title {
+    font-size: 6.4rem;
+  }
+}
+
+.herobox_content .description {
+  font-size: 1.8rem;
+  width: 100%;
+  max-width: 55ch;
+  margin-bottom: 30px;
+}
+
+.herobox_image {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .herobox_image {
+    display: inline-block;
+    text-align: right;
+  }
 }
