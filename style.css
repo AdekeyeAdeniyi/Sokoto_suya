@@ -189,3 +189,49 @@ section {
     text-align: right;
   }
 }
+
+/* Discover */
+.discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a0304;
+  height: 100%;
+  min-height: 400px;
+}
+
+.discover .container {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+  row-gap: 60px;
+}
+
+@media (min-width: 992px) {
+  .discover .container {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+  }
+}
+
+.discover_content .title {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.discover_content .description {
+  font-size: 1.8rem;
+  padding: 44px 0;
+  width: 100%;
+  max-width: 70ch;
+}
+
+@media (min-width: 992px) {
+  .discover_image {
+    width: 40%;
+    text-align: right;
+  }
+}
