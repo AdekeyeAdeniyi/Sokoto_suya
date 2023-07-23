@@ -235,3 +235,38 @@ section {
     text-align: right;
   }
 }
+
+/* Cart Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(42, 3, 4, 0.93);
+}
+
+.modal_head svg {
+  cursor: pointer;
+}
+
+.modal_content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal_content .title {
+  color: #2c0404;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 25px;
+}
