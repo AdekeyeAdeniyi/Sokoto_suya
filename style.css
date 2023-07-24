@@ -136,7 +136,7 @@ section {
 /* Herobox */
 .herobox {
   background: linear-gradient(#3b0101a7, #3b0101a7),
-    url('./images/bg-image.jpg');
+    url('./images/bg-image.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
