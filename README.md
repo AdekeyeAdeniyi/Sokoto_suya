@@ -55,6 +55,8 @@ Special thanks to the following contributors for their valuable contributions to
 - Sprout [@AdekeyeAdeniyi](https://github.com/AdekeyeAdeniyi)
 - Fammzzy [@Fammzzy](https://github.com/Fammzzy)
 - Emerald [@emerald-web](https://github.com/emerald-web)
+- Bensefas [@Bensefas](https://github.com/Bensefas)
+- Mukhtar Yusuf [@Mukhtaryusuf17](https://github.com/Mukhtaryusuf17)
 
 ## License
 Sokoto Suya's front-end website is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
