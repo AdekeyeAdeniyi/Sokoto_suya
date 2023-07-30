@@ -1,5 +1,6 @@
 # Sokoto Suya - Frontend Website ( Suya lovers unite! 😍)
 # IFT 211 Group 12 Project 
+Website Link: [Sokoto Suya](https://adekeyeadeniyi.github.io/Sokoto_suya/)
 
 ![Sokoto Suya Logo](https://example.com/sokoto-suya-logo.png)
 
