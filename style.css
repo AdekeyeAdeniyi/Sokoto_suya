@@ -25,10 +25,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
 p {
   font-weight: 400;
   line-height: 1.8;
@@ -39,7 +35,7 @@ img {
   max-width: 100%;
 }
 
-section {
+.section-padding {
   padding: 80px 0;
 }
 
@@ -121,6 +117,7 @@ h4 {
   display: flex;
   align-items: center;
   gap: 30px;
+  list-style: none;
 }
 
 @media (min-width: 501px) {
@@ -295,6 +292,33 @@ h4 {
 .menu_price {
   font-size: 3rem;
   padding-bottom: 10px;
+}
+
+/* Features */
+.features {
+  background-color: #2a0304;
+  padding: 60px 0;
+}
+
+.features_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  align-items: center;
+  row-gap: 20px;
+}
+
+.features_detail {
+  display: inline-flex;
+  justify-content: center;
+  column-gap: 14px;
+  font-family: 'Leckerli One', cursive;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.features_detail span {
+  line-height: 1.2;
+  display: block;
 }
 
 /* Cart Modal */
