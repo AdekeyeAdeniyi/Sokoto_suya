@@ -424,7 +424,7 @@ h4 {
 
 .input-group input,
 .input-group textarea {
-  width: 90%;
+  width: 100%;
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   padding: 0 10px;
@@ -463,6 +463,24 @@ h4 {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.copyright {
+  height: 80px;
+  background-color: #050505;
+}
+
+.copyright_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.copyright_text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: right;
 }
 /* Cart Modal */
 .modal {
