@@ -200,6 +200,15 @@ h4 {
   margin-bottom: 30px;
 }
 
+.herobox .content-center {
+  width: 100%;
+  text-align: center;
+}
+
+.herobox .content-center > p {
+  max-width: 100%;
+}
+
 .herobox_image {
   display: none;
 }
