@@ -321,6 +321,62 @@ h4 {
   display: block;
 }
 
+/* Testimonies */
+.testimonies {
+  background: linear-gradient(#000000c9, #000000c9),
+    url('./images/testimonies/steaks.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonies_card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.testimonies_card .arrow {
+  cursor: pointer;
+}
+
+.testimonies_card .arrow:hover > svg > path {
+  fill: #5e0407;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.testimony p {
+  width: 100%;
+  max-width: 60ch;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  margin: 30px 0 10px 0;
+}
+
+.testimony h4 {
+  font-size: 20px;
+  font-family: 'Leckerli One', cursive;
+  text-transform: uppercase;
+}
+
 /* Cart Modal */
 .modal {
   display: none;
