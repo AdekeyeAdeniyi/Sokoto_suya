@@ -2,7 +2,7 @@
 # IFT 211 Group 12 Project 
 Website Link: [Sokoto Suya](https://adekeyeadeniyi.github.io/Sokoto_suya/)
 
-![Sokoto Suya Logo](https://example.com/sokoto-suya-logo.png)
+![Sokoto Suya Logo](https://github.com/AdekeyeAdeniyi/Sokoto_suya/assets/57262658/ba501136-db18-4327-8dc9-855ad562d79e)
 
 Welcome to Sokoto Suya! This is a simple and creative front-end website for a fictional restaurant that specializes in serving delicious and authentic Suya, a popular West African grilled meat dish. This README will guide you through the project setup, technologies used, folder structure, website design template, contributors, and license, and provide answers to some frequently asked questions. Let's get started!
 
