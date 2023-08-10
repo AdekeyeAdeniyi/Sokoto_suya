@@ -80,6 +80,13 @@ h4 {
   background-color: #d93e0a;
 }
 
+.btn:disabled {
+  background-color: #373636d7;
+  cursor: no-drop;
+  color: #ffffff6f;
+  transition: all 0.3s linear;
+}
+
 /* Utilities */
 .container {
   margin: 0 auto;
@@ -619,7 +626,6 @@ h4 {
 
 /* Cart Modal */
 .modal {
-  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -629,6 +635,18 @@ h4 {
   z-index: 99999999;
 }
 
+.modal[data-state='active'] {
+  display: block;
+}
+
+.modal[data-state='active'] > .modal_content {
+  right: 0;
+}
+
+.modal[data-state='inactive'] {
+  display: none;
+}
+
 .modal_head svg {
   cursor: pointer;
 }
@@ -636,7 +654,7 @@ h4 {
 .modal_content {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -100%;
   bottom: 0;
   background-color: #ffffff;
   color: #000000;
