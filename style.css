@@ -620,8 +620,8 @@ h4 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   justify-items: center;
-  gap: 20px;
-  margin-top: 70px;
+  gap: 40px;
+  margin-top: 40px;
 }
 
 /* Cart Modal */
