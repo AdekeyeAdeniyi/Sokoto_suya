@@ -59,6 +59,7 @@ Special thanks to the following contributors for their valuable contributions to
 - Bensefas [@Bensefas](https://github.com/Bensefas)
 - Mukhtar [@Mukhtaryusuf17](https://github.com/Mukhtaryusuf17)
 - Fadimat [@fadimat20](https://github.com/fadimat20)
+- Salmaa [@salmaa20](ummusalmaozohu@gmail.com)
 
 ## License
 Sokoto Suya's front-end website is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
